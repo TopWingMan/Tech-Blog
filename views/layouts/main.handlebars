@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registry</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body style="background-color: rgb(185, 224, 140); padding: 2px;">
+  <header class="display-flex justify-space-between align-center p-2">
+
+    <div id="topContainer">
+      <div id="linksContainer">
+      <h2 class="link">Home</h2>
+      <h2 class="link">Dashboard</h2>
+      {{#if logged_in}}
+      <h2 class="link">Logout</h2>
+      {{/if}}
+      </div>
+
+      <h1 id="title">
+        {{!-- make this change depending what page you are on --}}
+        The Tech Blog 
+      </h1>
+    </div>
+
+  </header>
+
+  <main>
+    {{{ body }}}
+  </main>
+
+  <footer>
+      
+  </footer>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>

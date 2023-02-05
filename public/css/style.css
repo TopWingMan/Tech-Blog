@@ -1,0 +1,29 @@
+#linksContainer
+{
+    display: flex;
+}
+
+.link
+{
+    color: rgb(185, 224, 140);
+    padding-right: 80px;
+}
+
+#title
+{
+    background-color: rgb(185, 224, 140);
+    padding: 8px;
+    padding-bottom: 12px;
+    max-width: 220px;
+    max-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#topContainer
+{
+    flex-direction: column;
+    background-color: black;
+    padding-left: 60px;
+    padding-bottom: 1px;
+}
