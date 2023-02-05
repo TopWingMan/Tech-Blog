@@ -27,3 +27,8 @@
     padding-left: 60px;
     padding-bottom: 1px;
 }
+
+#logInContainer
+{
+    border: solid black;
+}
